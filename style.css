@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  overflow: hidden;
+  border: 1px solid #050505;
+  background-color: rgba(247, 194, 222, 0.607);
+  margin: 10px 0;
+}
+.container__block {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  background-color: #83818168;
+  border: 1px solid #333;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.container-group__big {
+  float: left;
+  height: 210px;
+}
+.container-group__items {
+  float: left;
+}
+.center {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
